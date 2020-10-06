@@ -2,13 +2,290 @@
 
 <html>
   <head>
-    <title>INSERT TITLE HERE!</title>
+    <title>Garage-Persona-Band</title>
     <link rel="stylesheet" href="index.css">
-    <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
     <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+    <style>
+      head{
+        margin: 0;
+        padding: 0;
+      }
+
+      
+    </style>
   </head>
 
   <body>
-    <!-- TODO: put your HTML code here! -->
+    <h1 id="titleonpage">GarageBand Analysis</h1>
+    <h2>Introduction</h2>
+
+    <div class="introrow">
+      <div>
+        <p>
+          Most electronic music softwares have an extremely steep learning curve, 
+          making it difficult for new producers to gain experience producing. 
+          GarageBand is geared towards beginners with its use of extensive libraries, 
+          graphical descriptions, and simplified editing tools, catching new producers 
+          up to speed before jumping into more studio-level software. 
+        </p>
+      </div>
+        <br>
+      <img src="sketch.png" alt="sketch of garageband interface with labelled parts"></img>
+    </div>
+
+    <h2>User Research</h2>
+
+    <h3>Interview Questions</h3>
+    <div class="categories">
+      <div class="qcat" id="backgroundq">
+        <h4>Background</h4>
+        <ul>
+          <li>Have you ever used a music producing software before today?</li>
+
+          <li>Talk to me about your musical background, whether it is electronic 
+            or not. How long have you been involved with music, or have had any 
+            interest in music, or listened to music, and what kind of 
+            experiences do you have in those respects?</li>
+
+          <li>(for those who have used it before) What have you used GarageBand for?</li>
+        </ul>
+      </div>
+      <div class="qcat" id="navigation">
+        <h4>Lightly-Guided Navigation</h4>
+        <ul>
+          <li>On a scale of 1 to 10, with 1 being easiest and 10 being most difficult, 
+            how would you rate the navigation for instruments?</li>
+
+          <li>On a scale of 1 to 10, with 1 being easiest and 10 being most difficult,
+            how would you rate the means of adding instrument tracks into the project?</li>
+
+          <li> Could you please input some notes into a track for me?</li>
+
+          <li> Could you try to make changes to some of the notes you already recorded?</li>
+
+          <li> Can you try to add a looping music segment onto the track? </li>
+
+          <li>Can you change the key and tempo of the project?</li>
+
+          <li>Clarifying automation, it is a technique in electronic music 
+            production where you essentially program the computer to make changes 
+            to your track as you play music. On most music softwares, this is a 
+            graphical process, so there's no code or anything like that involved.
+            With this knowledge, can you try to find automation settings and 
+            add some on this track? </li>       
+
+        </ul>
+      </div>
+
+      <div class="qcat" id="reflecting">
+        <h4>Reflecting</h4>
+        <ul>
+          <li>What is one part of this interface that made your life easier or harder? 
+            Talk about that with me.</li>
+
+          <li>On a scale of 1 to 10, how would you rate your comfort with this software?</li>
+
+          <li>(for those who indicated less music experience) How would you rate your 
+            ability to adapt to this interface from 1 to 10, 1 being no way and 10 being 
+            it feels natural? In other words, if I asked you to create a song using this, 
+            how comfortable or uncomfortable would you feel with that task?</li>
+
+          <li>(for those who indicated GarageBand experience) How would you feel 
+            this software has or may have prepared you for more advanced music 
+            production software?</li>
+
+          <li>What is something you felt was unclear as you were navigating this 
+            interface, and why?</li>
+          
+          <li>What is something all beginner producers should know that may or may 
+            not be accessible on GarageBand?</li>
+          
+          <li>On a scale of 1 to 10, with 1 being no way and 10 being with ease, 
+            how would you rate your ability to develop a fully-fleshed out vision 
+            of a project on Garageband?</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3>Responses</h3>
+    <div class="userrow">
+      <div class="useritem">
+        <h4>Anonymous User 1</h4>
+        <div class="summrow">
+          <p>Summary: User A is inexperienced with both music and music production. They 
+            made extensive use of the quick help, which they praised for pointing 
+            directly to anything being hovered over. They  tended to search more for 
+            buttons to navigate libraries rather than scroll bars. They had a hard 
+            time finding the display and means to change tempo and key. Metronome 
+            controls were simple because there were moving parts on the button. Opening 
+            tracks was very intuitive to them but things requiring clicking were not.
+          </p>
+        </div>
+        <div class="takeaway">
+          <p>MAIN TAKEAWAY: Buttons are very beginner-friendly, especially if labelled 
+            with clear icons.</p>
+        </div>
+      </div>
+
+      <div class="useritem">
+        <h4>Anonymous User 2</h4>
+        <div class="summrow">
+          <p>Summary: User B is inexperienced with digital music but heavily knowledgeable 
+            with music creation and performance. They showed heavy frustration with navigating 
+            menus, particularly those not on the interface itself but on the top bar menu - 
+            these were seen as less important to the function of the interface. They had difficulty 
+            locating key and tempo information. They managed to do well despite not using the quick 
+            help as much.
+          </p>
+        </div>
+        <div class="takeaway">
+          <p>MAIN TAKEAWAY: Functions relegated to the top bar of the interface appear to be more 
+            administrative tasks, and thus less relevant to what is on the interface.</p>
+        </div>
+      </div>
+
+      <div class="useritem">
+        <h4>Anonymous User 3</h4>
+        <div class="summrow">
+          <p>Summary: User C is heavily experienced with both music performance and production. 
+            Navigating the various libraries was relatively simple for them. However, they had initially 
+            struggled with the interface for recording notes and being able to find musical typing. They 
+            felt that the interface was captivating enough to want to stay on it “for hours on end, 
+            until very late at night.”
+          </p>
+        </div>
+        <div class="takeaway">
+          <p>MAIN TAKEAWAY: Crucial tools, such as musical typing, should be displayed more prominently 
+            on the interface.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <h3>Personas</h3>
+    <div>
+      <p>Personas are essential in the realm of software development because they allow designers to
+        empathize with the users of their end product by creating people and crafting their stories,
+        and thinking about designs that would leave these personas satisfied. For GarageBand, I crafted 
+        two distinct personas.
+      </p>
+    </div>
+    <br>
+
+    <div class="persona">
+      <div class="sage">
+        <div class="grid">
+          <div class="describe">
+            <h4>Sage West (22, she/they) </h4>
+            <p><i>
+              Sage was going through their computer when they found this app pre-installed on their laptop. 
+              Despite having minimal experience with music or music production, this app looked kinda cool so 
+              she decided to mess around and see what she could make.
+            </i>
+            <br>
+            <br>
+            <br>
+              This persona represents a flighty intellectually-curious user, who stumbles upon Garageband and 
+              starts using it due to sheer curiosity.  The persona exists as a stand-in for a user who has very 
+              minimal experience with music as a whole but is pushed into their passion via this resource. They 
+              will struggle with the various menus in the app and will be easily frustrated by tasks deemed too 
+              difficult.
+            </p>
+          </div>
+          <div class="thinks">Thinks
+            <ul>
+              <li>There’s a lot of cool instruments on here, let’s see if I can get a guitar sound </li>
+              <li>How do you play sounds on this thing? How do I add sounds?</li>
+              <li>What the heck did I press and where did that box go?</li>
+              <li>Why are there so many extra windows?</li>
+            </ul>
+          </div>
+          <div class="says">Says
+            <ul>
+              <li>“I found this thing on my computer and it looks kinda cool”</li>
+              <li>“I didn’t really wanna do my assignments so I was just fiddling with things.”</li>
+              <li>“These loop things are so easy to use, I might just mess with these instead of bothering 
+                with the whole instrument thing”</li>
+            </ul>
+          </div>
+          <div class="does">Does
+            <ul>
+              <li>Turns off the quick help because too many pop-up dialogues</li>
+              <li>Primarily uses loops since it’s the easiest to work with</li>
+              <li>After figuring out musical typing, switching through all the instruments</li>
+            </ul>
+          </div>
+          <div class="feels">Feels
+            <ul>
+              <li>Confused at how the whole thing works</li>
+              <li>Intrigued because fun pictures</li>
+              <li>Exhausted because using this to procrastinate on work</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="martin">
+        <div class="grid">
+          <div class="describe">
+            <h4>Martin Wallace-Johnson (43, he/him)</h4>
+            <p><i>
+              Martin has been writing sheet music for ages, but has decided he wants to “get with the kids” as 
+              they say and try out electronic production. He’s looking for good ways to translate his analog music 
+              experience into a digital music ability.
+            </i>
+            <br>
+            <br>
+            <br>
+              This persona represents users who want to take their already-existing music experience a step further. 
+              This particular user is not the most technologically-savvy, and will take time out of their day to work 
+              through the software so it doesn’t interrupt flows of ideas when actually working on pieces.
+            </p>
+          </div>
+          <div class="thinks">Thinks
+            <ul>
+              <li>I can’t wrap my brain around all of these commands</li>
+              <li>There are so many ideas in my head right now that I’m having a hard time putting onto this screen</li>
+              <li>Where am I supposed to click now?</li>
+            </ul>
+          </div>
+          <div class="says">Says
+            <ul>
+              <li>“Music just comes naturally to me, I’ll pick this up so easily”</li>
+              <li>“Got an idea for a piece so I won’t be coming with you all tonight”</li>
+              <li>“If I could spend all day creating music, I absolutely would”</li>
+            </ul>
+          </div>
+          <div class="does">Does
+            <ul>
+              <li>Sings to keep ideas in his head</li>
+              <li>Spends hours navigating through menus to understand the ins-and-outs before making anything</li>
+              <li>Attempts to play all the notes accurately on musical typing</li>
+              <li>Primarily uses musical typing and recording </li>
+            </ul>
+          </div>
+          <div class="feels">Feels
+            <ul>
+              <li>Excited at the score recreation of MIDI inputs</li>
+              <li>Confusion at how to manipulate notes in that layout and at how to add dynamic changes</li>
+              <li>Invested in getting it all just right</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="storyboarddiv">
+      <div>
+        <h3>Storyboard</h3>
+        <br>
+        <p>Storyboard was created for persona 2, Martin Wallace-Johnson.</p>
+      </div>
+        <br>
+      <img src="completed storyboard with captions.png" alt="martin's story of navigating through garageband" width="1fr"></img>
+    </div>
+
   </body>
 </html>

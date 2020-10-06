@@ -1,1 +1,198 @@
-/* Put your style information here! */
+body{
+    background-color: blanchedalmond;
+    font-family: CenturyGothic, AppleGothic, sans-serif;
+    margin:0;
+    padding:2em;
+}
+
+#titleonpage{
+    text-align: center;
+    font-family: CenturyGothic, AppleGothic, sans-serif;
+    font-size: 10vh;
+}
+
+.introrow{
+    margin:3em;
+    padding: 2em;
+    align-items: center;
+    display:flex;
+    flex-direction:row;
+    background-color: #5f9ea0;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-bottom: 3em;
+    overflow: hidden;
+    font-size: 2vh;
+}
+
+.introrow img{
+    position:relative;
+    padding: 1em;
+    align-self: stretch;
+    flex-shrink: 1;
+    flex-grow: 1;
+    width: 1fr;
+}
+
+.categories{
+    margin: 2em;
+    padding: 2em;
+    display:flex;
+    flex-direction: row;
+    background-color: #f1f1f1;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-bottom: 3em;
+    overflow:hidden;
+}
+
+.categories li{
+    font-size:2vh;
+}
+
+
+
+.introrow img{
+    display:flex;
+    flex-direction: column;
+    flex-shrink: 2;
+    flex-grow: 2;
+}
+
+.userrow{
+    margin: 2em;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    background-color: #f1f1f1;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-bottom: 3em;
+    overflow: hidden;
+}
+
+.useritem{
+    padding:1em;
+    margin:1em;
+}
+
+.useritem p{
+    font-size:2vh;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 250px 1fr 1fr;
+    grid-template-rows: 30vw 30vw;
+}
+
+.describe{
+    margin:1em;
+    padding: 2em;
+    grid-row: 1/3;
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+
+.thinks{
+    margin:1em;
+    padding:1em;
+    background-color: #c65353;
+    grid-row: 1;
+    grid-column: 2;    
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.says{
+    margin:1em;
+    padding: 1em;
+    background-color:#ff9999;
+    grid-row: 2;
+    grid-column: 2;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.does{
+    margin:1em;
+    padding: 1em;
+    background-color: #965a78;
+    grid-row: 2;
+    grid-column: 3;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.feels{
+    margin: 1em;
+    padding: 1em;
+    background-color: #da8b57;
+    grid-row: 1;
+    grid-column: 3;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.persona li{
+    text-align: center;
+    list-style: none;
+    font-size: 3vh;
+}
+
+.sage{
+    margin:1em;
+    background-color: burlywood;
+    align-items: center;
+    padding: 1em;
+    display:flex;
+    overflow: hidden;
+}
+
+.martin{
+    margin:1em;
+    background-color:rgba(148, 112, 66, 0.603);
+    align-items: center;
+    padding: 1em;
+    display:flex;
+    overflow: hidden;
+}
+
+.describe p{
+    font-size: 2.1vh;
+}
+
+
+
+.storyboarddiv{
+    margin: 3em;
+    padding: 2em;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    background-color: #5f9ea0;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-bottom: 3em;
+    overflow: hidden;
+    font-size: 2vh;
+}
+
+.storyboarddiv img{
+    position:relative;
+    padding: 1em;
+    align-self: stretch;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
